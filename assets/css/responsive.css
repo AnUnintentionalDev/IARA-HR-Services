@@ -1,0 +1,47 @@
+/* responsive */
+
+@media screen and (max-width: 320px){
+    .owl-carousel img{ height: 192px;}
+} 
+
+@media screen and (max-width: 480px){
+    a.carousel-control > span{ display: none;}
+}
+
+@media screen and (max-width:767px){
+    .navbar-default .navbar-toggle{ margin-top: 20px;}
+    .logo { width: 150px; padding-left: 10px;}
+    .top-header { height: 60px;}
+    .navbar-default .navbar-nav{ background: #222; margin-top: 0; }
+    
+    .big-heading{ font-size: 40px;}
+    .carousel-heading{ font-size: 36px; line-height: 40px;}
+    .carousel-resume-girl{ position: relative; left: 0; text-align: center;}
+    .carousel-caption-normal{ position: relative; right: 0; text-align: center;}
+    .carousel-caption-normal p{ color: #666; width: 300px; font-size: 14px; line-height: 20px;}
+    .carousel-heading , .carousel-sub-heading{ color: #222; text-shadow: none;}
+    
+    .main_heading{ border-top: 2px solid #ddd;}
+    
+    .iara-mantra blockquote{ margin-top: 30px; font-size: 18px;}
+    
+}
+@media screen and (max-width:992px){
+      
+}
+
+@media screen and (min-width:481px)
+{
+     
+}
+
+@media screen and (min-width:768px){
+    .navbar-default .navbar-nav > li.dropdown:hover > .dropdown-menu{ display: block; right: 10px;}
+    .carousel-caption-normal{  width: 300px;}
+    .carousel-resume-girl{ width: 400px;}
+    .iara-mantra{ height: 650px;}
+}
+
+@media screen and (min-width: 1192px){
+    .owl-carousel img{ height: 650px;}
+}

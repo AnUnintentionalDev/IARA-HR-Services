@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'Raleway';
+  src: url('../fonts/Raleway-Light.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/Raleway-Light.otf') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/Raleway-Light.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/Raleway-Light.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/Raleway-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/Raleway-Light.svg') format('svg'); /* Legacy iOS */
+}
